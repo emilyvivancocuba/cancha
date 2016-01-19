@@ -1,0 +1,55 @@
+*{
+	box-sizing:content-box;
+	padding: 0;
+	margin: 0;
+}
+
+.grande{
+	height: 500px;
+	width: 1000px;
+	background-color: #8CB27C;
+}
+.hijo{
+	height: 450px;
+	width: 950px;
+	background-color: #8CB27C;
+	border: 1px solid white;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+.arco{
+	height: 200px;	
+	background-color: #8CB27C;
+	border: 1px solid white;
+	position: absolute;
+	top: 25%;
+}
+.izq{
+	width: 120px;
+	left: 0;
+}
+.der{
+	width: 120px;
+	right: 0;
+}
+.centro{
+	width: 200px;
+	border-radius: 100%;
+	left: 350px;
+}
+.bola{
+	position: absolute;
+}
+.uno{
+	left: 480px;
+	top: 30px;
+}
+.dos{
+	right: 130px;
+	bottom: 140px;
+}
+.tres{
+	left: 110px;
+	top: 4px;
+}
